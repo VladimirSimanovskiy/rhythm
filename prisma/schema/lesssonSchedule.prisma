@@ -4,10 +4,10 @@ model LessonSchedule {
     room                    Room                  @relation(fields: [roomId], references: [id])
     teacherId               Int
     teacher                 Teacher               @relation(fields: [teacherId], references: [id])
-    classId                 Int
-    class                   Class                 @relation(fields: [classId], references: [id])
-    groupId                 Int
-    group                   ClassGroup            @relation(fields: [groupId], references: [id])
+    classId                 Int?
+    class                   Class?                @relation(fields: [classId], references: [id])
+    groupId                 Int?
+    group                   ClassGroup?           @relation(fields: [groupId], references: [id])
     subjectId               Int
     subject                 Subject               @relation(fields: [subjectId], references: [id])
     lessonTimeslotId        Int

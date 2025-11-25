@@ -1,0 +1,7 @@
+model CalendarHoliday {
+    id        Int      @id @default(autoincrement())
+    name      String
+    date      DateTime
+    createdAt DateTime @default(now())
+    updatedAt DateTime @updatedAt
+}
