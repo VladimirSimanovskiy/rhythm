@@ -11,9 +11,9 @@
 			--background: var(--secondary-bg);
 			--foreground: 0 0% 3.9%;
 
-			--primary: 222 47% 11%;
-			--primary-hover: 217 33% 17%;
-			--primary-foreground: 0 0% 98%;
+			--primary: 244 83% 60%;
+			--primary-hover: 244 83% 67%;
+			--primary-foreground: 0 0% 100%;
 
 			--secondary: 0 0% 96.1%;
 			--secondary-foreground: 0 0% 9%;
@@ -28,13 +28,13 @@
 
 			--muted-foreground: 0 0% 45.1%;
 
-			--accent: 222 47% 11%;
+			--accent: 142 71% 45%;
 
-			--accent-foreground: 0 0% 9%;
+			--accent-foreground: 145 80% 10%;
 
-			--destructive: 0 84.2% 60.2%;
+			--destructive: 0 72% 51%;
 
-			--destructive-foreground: 0 0% 98%;
+			--destructive-foreground: 0 0% 100%;
 
 			--border: 0 0% 89.8%;
 
@@ -49,13 +49,13 @@
 			--chart-5: 27 87% 67%;
 
 			/** Base **/
-			--primary-accent: 222 47% 11%;
-			--primary-accent-hover: 217 33% 17%;
-			--primary-fg: 222 47% 11%;
+			--primary-accent: 244 83% 60%;
+			--primary-accent-hover: 244 83% 67%;
+			--primary-fg: 244 83% 60%;
 			--primary-bg: 210 40% 98%;
 			--primary-bg-hover: 214 32% 91%;
 			--primary-border: 213 27% 84%;
-			--secondary-accent: 222 47% 11%;
+			--secondary-accent: 244 83% 60%;
 			--secondary-fg: 215 25% 27%;
 			--secondary-bg: 0 0% 100%;
 			--secondary-bg-hover: 210 40% 96%;
