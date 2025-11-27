@@ -3,10 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "peerDependencies": {
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0"
-  },
   "prisma": {
     "schema": "./prisma",
     "seed": "ts-node prisma/seed.ts"
@@ -20,6 +16,8 @@
     "db:seed": "npx prisma db seed"
   },
   "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
     "@dnd-kit/core": "^6.2.0",
     "@dnd-kit/modifiers": "^8.0.0",
     "@dnd-kit/sortable": "^10.0.0",
@@ -64,9 +62,9 @@
     "react-hook-form": "^7.54.2",
     "react-resizable-panels": "^3.0.6",
     "sonner": "^1.7.4",
-    "tailwind-merge": "^3.0.0",
-    "tailwind-variants": "^3.1.0",
-    "tailwindcss": "^3.4.15",
+    "tailwind-merge": "^3.4.0",
+    "tailwind-variants": "^3.2.2",
+    "tailwindcss": "^4.1.17",
     "tailwindcss-animate": "^1.0.7",
     "tsx": "^4.20.6",
     "vaul": "^1.1.2",
